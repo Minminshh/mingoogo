@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form id="registrationForm">
+      <label for="preferredSessionDate">Choose a date:</label>
+      <input
+        type="date"
+        id="preferredSessionDate"
+        min="2023-01-01"
+        max="2023-12-31"
+        required
+      />
+      <br />
+      <label for="t-shirtSize">Choose a t-shirt size:</label>
+      <select id="t-shirtSize" required>
+        <option value="">Select a size</option>
+        <option value="S">Small</option>
+        <option value="M">Medium</option>
+        <option value="L">Large</option>
+        <option value="XL">Extra Large</option>
+      </select>
+      <br />
+      <label for="experienceLevel">Choose your experience level:</label>
+      <select id="experienceLevel" required>
+        <option value="">Select experience level</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+      <br />
+      <label for="optionalaFileUpload">Optional file upload:</label>
+      <input type="file" id="optionalaFileUpload" />
+      <br />
+      <button type="submit">Submit</button>
+      <br />
+      <br />
+      <a href="https://www.example.com/">Visit our Community Hub</a>
+    </form>
+  </body>
+</html>
